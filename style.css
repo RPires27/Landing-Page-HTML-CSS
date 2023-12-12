@@ -1,0 +1,131 @@
+.hero {
+  background-color: #1f2937;
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 30px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.navbar li {
+  display: inline;
+  padding: 20px;
+  list-style: none;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.hero-button {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.placeholder {
+  display: flex;
+  width: 400px;
+  height: 200px;
+  background-color: #e4e4e4;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.random-information {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+#box1,
+#box2,
+#box3,
+#box4 {
+  width: 150px;
+  height: 150px;
+  border-color: #3882f6;
+  border-style: solid;
+  border-radius: 15px;
+}
+.boxes {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.box {
+  width: 150px;
+
+  margin: 0 20px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 125px 200px;
+}
+.quote p {
+  font-size: 36px;
+  font-weight: 100;
+}
+
+#author {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-top: 20px;
+  text-align: end;
+}
+.cta {
+  padding: 50px 200px;
+}
+.cta-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+  padding: 30px 70px;
+}
+
+.cta-section a {
+  color: white;
+  text-decoration: none;
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 5px 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
